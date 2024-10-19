@@ -5,7 +5,7 @@ body{
 .container{
 display: grid;
 grid-template-columns: repeat(12,1fr);
-grid-template-rows: repeat(4,1fr);
+/* grid-template-rows: repeat(4,1fr); */
 
 
 }
@@ -17,7 +17,7 @@ grid-template-rows: repeat(4,1fr);
     height: 70px;
     border:1px solid red;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-between;
     align-items: center;
 }
 
@@ -43,6 +43,7 @@ li:hover{
        grid-column: 1/13;
 }
 .cards{
+    height: 400px;
     grid-row: 4/5;
     grid-column: 1/13;
     display: flex;
