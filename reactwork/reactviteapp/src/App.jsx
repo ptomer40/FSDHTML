@@ -2,6 +2,9 @@ import React from 'react'
 import Student from './Student'
 import StateHandling from './StateHandling'
 import ImageManipulation from './ImageManipulation'
+import UseEffectWork from './UseEffectWork'
+import Login from './Login'
+import Registration from './Registration'
 
 function App() {
 
@@ -34,8 +37,16 @@ function App() {
     <div>
 <div>
   <h2 style={{color:'red'}}>Hello React JS </h2>
+<h2>Login Form</h2>
+  <Login />
+  <br></br>
+  <h2>Registration Form</h2>
+  <Registration />
   <div>
-    <ImageManipulation />
+    {/* <UseEffectWork /> */}
+  </div>
+  <div>
+    {/* <ImageManipulation /> */}
   </div>
   <div>
 {/* <StateHandling /> */}
